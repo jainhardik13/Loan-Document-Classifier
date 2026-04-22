@@ -1,0 +1,6 @@
+input_text,predicted_category,confidence_score
+"employee monthly payslip showing gross salary, net pay, PF deduction and TDS",Salary_Slip,0.9818
+"bank account statement with opening balance, UPI debits and NEFT credits",Bank_Statement,0.9862
+income tax return acknowledgement for assessment year with taxable income and refund,IT_Return,0.9803
+registered sale deed for residential plot with survey number and stamp duty,Property_Paper,0.8749
+aadhaar card copy containing uid number and date of birth,ID_Proof,0.9508

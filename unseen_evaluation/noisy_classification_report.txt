@@ -1,0 +1,15 @@
+Noisy Dataset Evaluation
+Total samples: 300
+Accuracy: 0.9933
+
+                precision    recall  f1-score   support
+
+Bank_Statement     1.0000    1.0000    1.0000        60
+      ID_Proof     1.0000    1.0000    1.0000        60
+     IT_Return     0.9677    1.0000    0.9836        60
+Property_Paper     1.0000    1.0000    1.0000        60
+   Salary_Slip     1.0000    0.9667    0.9831        60
+
+      accuracy                         0.9933       300
+     macro avg     0.9935    0.9933    0.9933       300
+  weighted avg     0.9935    0.9933    0.9933       300

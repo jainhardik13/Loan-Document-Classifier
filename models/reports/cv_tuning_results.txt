@@ -1,0 +1,16 @@
+========== MultinomialNB ==========
+best_cv_f1_weighted: 1.0000
+best_params:
+  - model__alpha: 0.5
+  - tfidf__max_df: 0.85
+  - tfidf__max_features: 800
+  - tfidf__min_df: 1
+
+========== SVM ==========
+best_cv_f1_weighted: 1.0000
+best_params:
+  - model__C: 0.1
+  - tfidf__max_df: 0.85
+  - tfidf__max_features: 800
+  - tfidf__min_df: 2
+

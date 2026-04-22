@@ -1,0 +1,6 @@
+,Bank_Statement,ID_Proof,IT_Return,Property_Paper,Salary_Slip
+Bank_Statement,60,0,0,0,0
+ID_Proof,0,60,0,0,0
+IT_Return,0,0,60,0,0
+Property_Paper,0,0,0,60,0
+Salary_Slip,0,0,2,0,58

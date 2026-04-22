@@ -1,0 +1,7 @@
+documents_per_day: 500
+manual_minutes_per_document: 2
+daily_minutes_saved: 1000
+daily_hours_saved: 16.67
+monthly_hours_saved: 500.0
+optional_cost_per_hour_inr: 250
+optional_monthly_cost_saved_inr: 125000.0
