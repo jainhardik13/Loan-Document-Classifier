@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-slate-200/80 bg-white/95 p-6 shadow-soft transition-all duration-300 dark:border-slate-700 dark:bg-slate-900/85;
+}

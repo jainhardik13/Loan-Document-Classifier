@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 try:
     from .model_service import ModelService
@@ -6,6 +7,10 @@ except ImportError:
     from model_service import ModelService
 
 app = Flask(__name__)
+CORS(
+    app,
+    resources={r"/predict": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173"]}},
+)
 model_service = ModelService()
 
 
